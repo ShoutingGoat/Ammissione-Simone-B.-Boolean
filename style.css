@@ -1,0 +1,96 @@
+/* sfondo del sito */
+body{
+  background-image: url(background.jpg);
+  background-color: #cccccc;
+  height: 700px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.matt-black{
+    width: 1000px;
+    height: 680px;
+    background-color: black;
+    opacity: 0.6;
+    position: relative;
+    left: -100px;
+    border-radius: 15px;
+}
+
+/* Contenuto */
+.corpo{
+  position: relative;
+  top: 20px;
+  width: 800px;
+  margin: auto;
+}
+/* Posizione del Logo e Nome */
+header{
+  width: 200px;
+  margin: auto;
+}
+/* immagine */
+img{
+  width: 166px;
+  height: 76px
+}
+/* Barra delle call to actions */
+nav{
+  width: 800px;
+  margin: auto;
+  color: #32cd32;
+  
+}
+
+.riquadro{
+    width: 800px;
+    height: 40px;
+    background-color: #00ff00;
+  }
+
+.titolo {
+    text-align: center;
+    margin-bottom: 5px;
+}
+/* Posizione dei pulsanti all'interno della barra di prenotazione */
+
+.button{
+  position: relative;
+  left: 250px;
+  top: 10px;
+}
+
+.mono{
+  font-size: 22px;
+  color: white;
+}
+.distanza{
+  color: white
+}
+
+.batteryarancio{
+  height: 30px;
+  width: 300px;
+  background-color: orange;
+  border-radius: 5px;
+}
+.batteryverde{
+  height: 30px;
+  width: 600px;
+  background-color: #32cd32;
+  border-radius: 5px;
+}
+.batteryrosso{
+  height: 30px;
+  width: 150px;
+  background-color: #dc143c;
+  border-radius: 5px;
+}
+
+.contenuto{
+  position: relative;
+  top: -600px;
+}
+
